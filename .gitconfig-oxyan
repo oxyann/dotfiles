@@ -1,0 +1,6 @@
+[user]
+    name = liweigang
+    email = oxyan70@gmail.com
+
+[core]
+    sshCommand = "ssh -i ~/.ssh/oxyann_key"

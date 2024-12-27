@@ -1,0 +1,18 @@
+[user]
+    name = liweigang
+    email = oxyan70@gmail.com
+
+[core]
+    editor = nvim
+    # ssh-keygen -f ~/.ssh/oxyann_key
+    sshCommand = "ssh -i ~/.ssh/oxyann_key"
+
+[init]
+    defaultBranch = main
+
+[includeIf "gitdir:~/oxyan/"]
+    path = .gitconfig-oxyann_key
+
+# tar.xz
+[tar "tar.xz"]
+    command = xz -c
