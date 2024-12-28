@@ -10,9 +10,8 @@
 [init]
     defaultBranch = main
 
-[includeIf "gitdir:~/oxyan/"]
-    path = .gitconfig-oxyann_key
-
-# tar.xz
 [tar "tar.xz"]
     command = xz -c
+
+[includeIf "gitdir:~/oxyan/"]
+    path = .gitconfig-oxyann
